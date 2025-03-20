@@ -129,5 +129,5 @@ class Bot(Client):
             self.LOGGER(__name__).info("Shutting down...")
         finally:
             loop.run_until_complete(self.stop())
-
-     #@rohit_1888 on Tg
+app = Bot()
+app.run()
