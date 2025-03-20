@@ -129,5 +129,3 @@ class Bot(Client):
             self.LOGGER(__name__).info("Shutting down...")
         finally:
             loop.run_until_complete(self.stop())
-app = Bot()
-app.run()
